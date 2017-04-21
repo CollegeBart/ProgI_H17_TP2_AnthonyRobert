@@ -9,6 +9,7 @@ void Abadox::Update()
 }
 
 Abadox::Abadox()
+	:Sprite(ABADOX_PATH)
 {
 }
 

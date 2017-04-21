@@ -9,6 +9,7 @@ void Level::Update()
 }
 
 Level::Level()
+	:Sprite(LEVEL_PATH)
 {
 }
 

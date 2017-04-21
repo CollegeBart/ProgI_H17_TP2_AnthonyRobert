@@ -1,15 +1,20 @@
 #include "Scene.h"
-#include "Sprite.h"
+#include "Abadox.h"
+#include "Level.h"
 
 int main(int argc, char* args[])
 {
 	gEngine->Init();
 	//Création des objets
 	Scene* scene = new Scene("Main");
+	gEngine->AddScene(scene);
+
+	Abadox* abad = new Abadox();
+	
+	gEngine->GetScene("Main")->AddComponent(abad);
 
 
-	Sprite* s = new Sprite("2131.png");
-	scene->AddComponent(s);
+
 
 	gEngine->AddScene(scene);
 
