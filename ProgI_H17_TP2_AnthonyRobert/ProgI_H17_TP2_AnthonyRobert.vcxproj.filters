@@ -18,5 +18,39 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Abadox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Abadox\32877.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Abadox\2131.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Abadox\2132.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Abadox\2133.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Abadox\2134.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Abadox\19355.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Abadox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

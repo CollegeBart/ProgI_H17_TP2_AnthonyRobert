@@ -7,7 +7,8 @@ int main(int argc, char* args[])
 	//Création des objets
 	Scene* scene = new Scene("Main");
 
-	Sprite* s = new Sprite("Patrick.bmp");
+
+	Sprite* s = new Sprite("2131.png");
 	scene->AddComponent(s);
 
 	gEngine->AddScene(scene);

@@ -146,7 +146,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Abadox.cpp" />
+    <ClCompile Include="Level.cpp" />
     <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Abadox\19355.png" />
+    <Image Include="..\..\Abadox\2131.png" />
+    <Image Include="..\..\Abadox\2132.png" />
+    <Image Include="..\..\Abadox\2133.png" />
+    <Image Include="..\..\Abadox\2134.png" />
+    <Image Include="..\..\Abadox\32877.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Abadox.h" />
+    <ClInclude Include="Level.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
