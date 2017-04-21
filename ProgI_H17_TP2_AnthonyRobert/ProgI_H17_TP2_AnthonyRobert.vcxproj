@@ -161,6 +161,7 @@
   <ItemGroup>
     <ClInclude Include="Abadox.h" />
     <ClInclude Include="Level.h" />
+    <ClInclude Include="RessourcesID.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -9,14 +9,11 @@ int main(int argc, char* args[])
 	Scene* scene = new Scene("Main");
 	gEngine->AddScene(scene);
 
+	Textures->LoadTexture(Texture::ID::Boss, "2132.png");
+
 	Abadox* abad = new Abadox();
-	
-	gEngine->GetScene("Main")->AddComponent(abad);
-
-
-
-
-	gEngine->AddScene(scene);
+	abad->SetScale(1, 1);
+	scene->AddComponent(abad);
 
 	gEngine->LoadScene("Main");
 
