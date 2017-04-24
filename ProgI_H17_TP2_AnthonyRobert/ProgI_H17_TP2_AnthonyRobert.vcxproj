@@ -75,8 +75,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>..\..\bart-sdl-engine-h17\lib\SDL2_image\include;..\..\bart-sdl-engine-h17\lib\SDL2\include;..\..\bart-sdl-engine-h17\src\Engine;..\..\bart-sdl-engine-h17\src\Engine_Math;$(IncludePath)</IncludePath>
-    <LibraryPath>..\..\bart-sdl-engine-h17\lib\SDL2_image\lib\x64;..\..\bart-sdl-engine-h17\lib\SDL2\lib\x64;..\..\bart-sdl-engine-h17\src\x64\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\bart-sdl-engine-h17\lib\SDL2_image\include;..\..\bart-sdl-engine-h17\lib\SDL2_ttf\include;..\..\bart-sdl-engine-h17\lib\SDL2\include;..\..\bart-sdl-engine-h17\src\Engine;..\..\bart-sdl-engine-h17\src\Engine_Math;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\bart-sdl-engine-h17\lib\SDL2_image\lib\x64;..\..\bart-sdl-engine-h17\lib\SDL2_ttf\lib\x64;..\..\bart-sdl-engine-h17\lib\SDL2\lib\x64;..\..\bart-sdl-engine-h17\src\x64\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -151,17 +151,17 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\Abadox\19355.png" />
-    <Image Include="..\..\Abadox\2131.png" />
-    <Image Include="..\..\Abadox\2132.png" />
-    <Image Include="..\..\Abadox\2133.png" />
-    <Image Include="..\..\Abadox\2134.png" />
-    <Image Include="..\..\Abadox\32877.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Abadox.h" />
     <ClInclude Include="Level.h" />
     <ClInclude Include="RessourcesID.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Abadox\19355.png" />
+    <Image Include="Abadox\2131.png" />
+    <Image Include="Abadox\2132.png" />
+    <Image Include="Abadox\2133.png" />
+    <Image Include="Abadox\2134.png" />
+    <Image Include="Abadox\32877.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
