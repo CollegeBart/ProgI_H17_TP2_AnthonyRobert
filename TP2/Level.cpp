@@ -2,6 +2,7 @@
 
 void Level::Start()
 {
+	
 }
 
 void Level::Update()
@@ -9,7 +10,7 @@ void Level::Update()
 }
 
 Level::Level()
-	:Sprite(LEVEL_PATH)
+	:Sprite()
 {
 }
 

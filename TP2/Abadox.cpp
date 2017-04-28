@@ -9,7 +9,7 @@ void Abadox::Update()
 }
 
 Abadox::Abadox()
-	:Sprite(Texture::ID::Boss)
+	:Sprite(Texture::ID::Player)
 {
 }
 
