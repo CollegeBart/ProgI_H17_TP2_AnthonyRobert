@@ -2,6 +2,7 @@
 
 #include "Sprite.h"
 #include "RessourcesID.h"
+#include "Text.h"
 
 #define LEVEL_PATH
 
@@ -15,4 +16,6 @@ public:
 	Level();
 	~Level();
 
+private :
+	Text* text;
 };
