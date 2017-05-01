@@ -7,14 +7,13 @@
 int main(int argc, char* args[])
 {
 	gEngine->Init();
+	gEngine->SetNativeResolution(255, 240);
 
 	Textures->LoadTexture(Texture::ID::Boss, "2133.png");
 	
 	//Création des objets
 	Scene* scene = new Scene("Main");
-	scene->SetNativeResolution(768, 432);
 	gEngine->AddScene(scene);
-	
 
 	SDL_Rect frame;
 	frame.x = 2;
@@ -29,18 +28,15 @@ int main(int argc, char* args[])
 
 	//Vector2D abad1pos = Vector2D(50, 50);
 	//float abad1rot = 45;
+	
 
 
-	Abadox* abad = new Abadox();
-	//abad->SetPosition(abad1pos);
-	//abad->SetRotation(abad1rot);
-	abad->SetFlip(SDL_FLIP_HORIZONTAL);
+	//Abadox* abad = new Abadox();
+	//abad->SetFlip(SDL_FLIP_HORIZONTAL);
+	//scene->AddComponent(abad);
 
-	Abadox* abad1 = new Abadox();
-	abad1->SetPosition(Vector2D(500, 0));
-
-	scene->AddComponent(abad);
-	scene->AddComponent(abad1);
+	//Abadox* abad1 = new Abadox();
+	//scene->AddComponent(abad1);
 
 	//Text* text = new Text();
 	//scene->AddComponent(text);

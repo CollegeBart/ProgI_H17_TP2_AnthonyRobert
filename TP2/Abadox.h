@@ -9,9 +9,10 @@ class Abadox :
 	public Sprite
 {
 public: 
-	void Start();
 	void Update();
 
 	Abadox();
 	~Abadox();
+private:
+	float speed;
 };
