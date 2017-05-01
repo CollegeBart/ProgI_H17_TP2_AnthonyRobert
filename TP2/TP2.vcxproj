@@ -148,20 +148,28 @@
   <ItemGroup>
     <ClCompile Include="Abadox.cpp" />
     <ClCompile Include="Level.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Ui.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Abadox.h" />
     <ClInclude Include="Level.h" />
+    <ClInclude Include="MainMenu.h" />
     <ClInclude Include="RessourcesID.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Ui.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="36517_01.png" />
     <Image Include="Abadox\19355.png" />
     <Image Include="Abadox\2131.png" />
     <Image Include="Abadox\2132.png" />
     <Image Include="Abadox\2133.png" />
     <Image Include="Abadox\2134.png" />
     <Image Include="Abadox\32877.png" />
+    <Image Include="Background.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

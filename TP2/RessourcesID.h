@@ -5,7 +5,13 @@ namespace Texture
 {
 	enum ID
 	{
-		Boss,
-		Level
+		Menu,
+		Player,
+		Ennemy,
+		Boss1,
+		Boss2,
+		Boss3,
+		Level,
+		Bg
 	};
 }

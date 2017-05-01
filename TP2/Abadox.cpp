@@ -1,16 +1,14 @@
 #include "Abadox.h"
 
 Abadox::Abadox()
-	: Sprite(Texture::ID::Boss)
+	: Sprite(Texture::ID::Boss1)
 	, speed(100.0f)
 {
 	CreateCollider(ColliderType::SQUARE_COLLIDER, dstRect->w, dstRect->h, 0.0f);
 
 }
 
-Abadox::~Abadox()
-{
-}
+
 
 void Abadox::Update()
 {

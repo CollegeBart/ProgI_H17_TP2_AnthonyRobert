@@ -1,0 +1,42 @@
+	SDL_Rect idleFrame;
+	idleFrame.x = 19;
+	idleFrame.y = 19;
+	idleFrame.w = 25;
+	idleFrame.h = 25;
+
+	idle = new SpriteAnimation(Texture::ID::Megaman_Sheet, &idleFrame, 3);
+
+	idle->SetPosition(startPosition);
+	idle->SetVisible(true);
+	gEngine->GetScene("Main")->AddComponent(idle);
+	
+	Update()
+	idle->SetPosition(currentPosition);
+
+
+	Example de deplacement:
+	if (gInput->IsKeyPressed(SDL_SCANCODE_A))
+	{
+		isMoving = true;
+		if (isShooting == true)
+		{
+			shootIdle->SetVisible(false);
+			shootMove->SetVisible(true);
+			idle->SetVisible(false);
+			move->SetVisible(false);
+			climb->SetVisible(false);
+		}
+		else
+		{
+			shootIdle->SetVisible(false);
+			shootMove->SetVisible(false);
+			idle->SetVisible(false);
+			move->SetVisible(true);
+			climb->SetVisible(false);
+		}
+		facingRight = false;
+		idle->SetFlip(SDL_FLIP_NONE);
+		shootIdle->SetFlip(SDL_FLIP_NONE);
+		move->SetFlip(SDL_FLIP_NONE);
+		shootMove->SetFlip(SDL_FLIP_NONE);
+	}
