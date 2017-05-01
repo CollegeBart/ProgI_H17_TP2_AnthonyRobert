@@ -9,8 +9,8 @@
 
 int main(int argc, char* args[])
 {
-	gEngine->Init();
-	gEngine->SetNativeResolution(768, 432);
+	gEngine->Init(511,463);
+	//gEngine->SetNativeResolution(768, 432);
 
 	Textures->LoadTexture(Texture::ID::Boss1, "2133.png");
 	Textures->LoadTexture(Texture::ID::Boss2, "2132.png");
@@ -39,9 +39,7 @@ int main(int argc, char* args[])
 	framemenu.w = 511;
 
 	scene->SetCameraShake(true);
-	
 	MainMenu* menu = new MainMenu();
-	scene->AddComponent(menu);
 
 	//SpriteAnimation* test = new SpriteAnimation(Texture::Boss1, &frame, 4);
 	//scene->AddComponent(test);
