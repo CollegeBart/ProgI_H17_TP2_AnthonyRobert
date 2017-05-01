@@ -6,7 +6,7 @@ MainMenu::MainMenu()
 {
 	gEngine->GetScene("Main")->AddComponent(this);
 
-	text = new Text("AGSDDHFGHBVDSFASDGFDGHRETERV");
+	text = new Text("Press Enter To Play");
 	text->GetBody()->SetTransform(b2Vec2(260, 300), 0.f);
 
 	gEngine->GetScene("Main")->AddComponent(text);

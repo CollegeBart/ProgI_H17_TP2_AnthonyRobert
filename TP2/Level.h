@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Sprite.h"
+#include "RessourcesID.h"
 
 #define LEVEL_PATH
 

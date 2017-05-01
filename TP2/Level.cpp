@@ -10,7 +10,7 @@ void Level::Update()
 }
 
 Level::Level()
-	:Sprite()
+	:Sprite(Texture::ID::Bg)
 {
 }
 
