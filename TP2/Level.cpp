@@ -15,11 +15,7 @@ Level::Level()
 {
 	gEngine->GetScene("Main")->AddComponent(this);
 	
-	int i = 00000000;
-	text = new Text();
-
-	gEngine->GetScene("Main")->AddComponent(text);
-
+	
 }
 
 Level::~Level()

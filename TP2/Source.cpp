@@ -39,10 +39,10 @@ int main(int argc, char* args[])
 	framemenu.w = 511;
 
 	scene->SetCameraShake(true);
+	SpriteAnimation* test = new SpriteAnimation(Texture::Boss1, &frame, 4);
+	scene->AddComponent(test);
 	MainMenu* menu = new MainMenu();
 
-	//SpriteAnimation* test = new SpriteAnimation(Texture::Boss1, &frame, 4);
-	//scene->AddComponent(test);
 	
 	
 	//Vector2D abad1pos = Vector2D(50, 50);

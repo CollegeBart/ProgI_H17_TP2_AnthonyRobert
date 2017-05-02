@@ -7,5 +7,11 @@ class Ui
 public:
 	Ui();
 	~Ui();
+	void SetScore();
+	
+
+private:
+
+	Text* text;
 };
 
